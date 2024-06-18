@@ -6,7 +6,7 @@ E-SHOP is a dynamic e-commerce platform built on the MERN stack, catering to mod
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [ScreenShots](#screenshots)
+- [Screenshots](#screenshots)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
 - [License](#license)
@@ -20,6 +20,11 @@ E-SHOP is a dynamic e-commerce platform built on the MERN stack, catering to mod
 - **Newsletter Subscription**: Dedicated section for users to subscribe to newsletters and stay informed about the latest offerings and promotions.
 - **Admin Panel**: Intuitive backend panel for administrators to manage products, including adding new products, updating existing listings, and overseeing inventory.
 - **Promotions and New Collections**: Capability to showcase new collections and promotional offers on the main page and shop sections.
+
+## Prerequisites
+
+- Node.js (>= 12.x)
+- npm (>= 6.x)
 
 ## Installation
 
@@ -52,7 +57,7 @@ To run E-SHOP locally, follow these steps:
 
 2. **To run the Backend:**
     ```bash
-    node .\index.js
+    node ./index.js
     ```
 
 3. **To run the Admin Panel:**
@@ -60,7 +65,7 @@ To run E-SHOP locally, follow these steps:
     npm run dev
     ```
 
-## ScreenShots
+## Screenshots
 
 ### Login Page
 ![Login Page](https://github.com/rajvipandya16/E-Commerce-Shopping-Website/assets/122957337/5c66e189-e8c5-44e5-9cb0-f6962f779a9f)
@@ -95,9 +100,39 @@ To run E-SHOP locally, follow these steps:
 #### Product List
 ![Product List](https://github.com/rajvipandya16/E-Commerce-Shopping-Website/assets/122957337/5d4bb412-8a38-4005-b040-7297e7d14a0a)
 
+## Folder Structure
+
+```bash
+E-SHOP/
+  ├── backend/
+  │   ├── controllers/
+  │   ├── models/
+  │   ├── routes/
+  │   ├── config/
+  │   └── index.js
+  ├── frontend/
+  │   ├── public/
+  │   ├── src/
+  │   │   ├── components/
+  │   │   ├── pages/
+  │   │   ├── redux/
+  │   │   ├── App.js
+  │   │   └── index.js
+  ├── admin/
+  │   ├── public/
+  │   ├── src/
+  │   │   ├── components/
+  │   │   ├── pages/
+  │   │   ├── redux/
+  │   │   ├── App.js
+  │   │   └── index.js
+  ├── README.md
+  └── package.json
+```
+
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request for any changes.
+Contributions are welcome! Please open an issue or submit a pull request for any changes. See the [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 ## License
 
@@ -110,4 +145,6 @@ For any inquiries or support, please contact:
 - Umang Joshi: [umangjoshi144@gmail.com](mailto:umangjoshi144@gmail.com)
 - Divya Dave: [divyadave742@gmail.com](mailto:divyadave742@gmail.com)
 
+---
 
+This is an internship project for ineuron.ai that Divya Dave and Umang Joshi have done together from May to June 2024.
